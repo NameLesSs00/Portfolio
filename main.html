@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pola Samy - Frontend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Pola Samy</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <!-- Profile Image Placeholder -->
+           <div style="display:inline-block; width:200px; height:200px; overflow:hidden; border-radius:50%; vertical-align:middle;">
+    <img src="img.jpg" alt="Pola Samy" style="width:100%; height:100%; object-fit:cover; display:block;">
+</div>
+
+            <h1>Pola Samy Habib</h1>
+            <h2>Frontend Developer</h2>
+            <p>Frontend developer with over a year of experience crafting responsive, high-performance web applications using React.js, Next.js, and Tailwind CSS.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn primary">Contact Me</a>
+                <a href="#projects" class="btn secondary">View Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Computer Science student with two years of self-directed learning and hands-on project experience in full-stack development. Currently pursuing my Bachelor of Computer Science at the University of Hurghada with a GPA of 3.77.</p>
+                    <p>Passionate about solving real-world problems and committed to continuous improvement. Active in tech communities and programming competitions.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>3.77</h3>
+                        <p>GPA</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section gray">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>React.js</li>
+                        <li>Next.js</li>
+                        <li>TypeScript</li>
+                        <li>Tailwind CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MongoDB</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>Figma</li>
+                        <li>C++</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- Project Screenshot Placeholder -->
+                        <span>Eid Card Creator</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Eid El-Adha Card Creator</h3>
+                        <p>Web app for generating and sharing personalized Eid greeting cards with interactive animations.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Tailwind</span>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://eid-el-adha.vercel.app/" target="_blank">Live Demo</a>
+                            <a href="https://github.com/NameLesSs00" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <span>Weather App</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+                        <p>Real-time weather application displaying current conditions based on user location.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>API</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://weather-app-six-phi-95.vercel.app/" target="_blank">Live Demo</a>
+                            <a href="https://github.com/NameLesSs00" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <span>E-commerce Page</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Product Page</h3>
+                        <p>Fully responsive e-commerce product layout with shopping cart functionality.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://e-commerce-product-page-eight-indol.vercel.app/Collections/sneakers" target="_blank">Live Demo</a>
+                            <a href="https://github.com/NameLesSs00" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section gray">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <span>polasamy81311518@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Phone:</strong>
+                        <span>01220366725</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Location:</strong>
+                        <span>Hurghada, Egypt</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>LinkedIn:</strong>
+                        <a href="https://www.linkedin.com/in/pola-samy-bb3a6031b" target="_blank">View Profile</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>GitHub:</strong>
+                        <a href="https://github.com/NameLesSs00" target="_blank">View Profile</a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Pola Samy Habib. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
